@@ -6,69 +6,94 @@
     <title>Currículum Vitae</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #f4f4f4;
             color: #333;
         }
         .container {
-            display: flex;
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 900px;
+            margin: 30px auto;
             background-color: #fff;
-            border: 1px solid #ccc;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
-        .sidebar {
-            width: 30%;
-            background-color: #007BFF;
-            color: white;
+        .header {
+            background-color: #51defa;
+            color: #fff;
             padding: 20px;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        .main {
-            width: 70%;
-            padding: 20px;
-        }
-        h1, h2, h3 {
+        .header h1 {
             margin: 0;
-            padding: 0;
         }
-        h1 {
-            color: #007BFF;
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .content {
+            padding: 20px;
         }
         .section {
             margin-bottom: 20px;
         }
         .section-title {
-            background-color: #f8f9fa;
+            background-color: #e7e7e7;
             padding: 10px;
             border-radius: 5px;
             font-weight: bold;
+            font-size: 1.2em;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .section ul li {
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="sidebar">
-        <h1>Brisa Ramírez Esquivel</h1>
-        <img src="/static/img/isaramirez.jpeg" alt="">
-        <p><strong>Correo:</strong> brisaesquivel35@gmail.com</p>
-        <p><strong>Teléfono:</strong> +52 55 2265 3476</p>
-        <p><strong>Dirección:</strong> Jaltepec el Llano.</p>
+    <div class="header">
+        <h1>Currículum Vitae</h1>
     </div>
-    <div class="main">
+    <div class="profile">
+        <img src="/static/img/Captura desde 2024-10-04 11-28-40.png" alt="Foto de Brisa Ramírez">
+        <div>
+            <p><strong>Nombre:</strong> Brisa Ramírez Esquivel.</p>
+            <p><strong>Correo:</strong> brisaesquivel35@gmail.com</p>
+            <p><strong>Teléfono:</strong> +52 55 2265 3476</p>
+            <p><strong>Dirección:</strong> Jaltepec el Llano.</p>
+        </div>
+    </div>
+    <div class="content">
         <div class="section">
             <div class="section-title">Perfil Profesional</div>
             <p>Estudiante apasionado por la tecnología y el desarrollo de software, con un fuerte deseo de aprender y crecer profesionalmente.</p>
         </div>
         <div class="section">
             <div class="section-title">Educación</div>
-            <p><strong>Universidad Mexiquense del Bicentenario</strong>, Unidad de Estudios Superiores San José del Rincón.</p>
-            <p>Ingeniería en Sistemas Computacionales.</p>
-            <p>Séptimo Semestre.</p>
+            <p><strong>Institución:</strong> Universidad Mexiquense del Bicentenario, Unidad de Estudios Superiores San José del Rincón.</p>
+            <p><strong>Carrera:</strong> Ingeniería en Sistemas Computacionales.</p>
+            <p><strong>Semestre:</strong> 13SC171.</p>
+            <p><strong>Matrícula:</strong> 13210025.</p>
         </div>
         <div class="section">
             <div class="section-title">Experiencia</div>
@@ -81,7 +106,6 @@
         <div class="section">
             <div class="section-title">Habilidades</div>
             <ul>
-
                 <li>Trabajo en equipo.</li>
                 <li>Comunicación efectiva.</li>
             </ul>
@@ -90,7 +114,7 @@
             <div class="section-title">Contacto</div>
             <p><strong>Teléfono personal:</strong> +52 55 2265 3476</p>
             <p><strong>Email:</strong> brisaesquivel35@gmail.com</p>
-            <p><strong>Facebook:</strong> Esquivel Zaori </p>
+            <p><strong>Facebook:</strong> Esquivel Zaori</p>
         </div>
     </div>
 </div>
