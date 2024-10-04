@@ -8,90 +8,90 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2, h3 {
+            padding: 0;
+            background-color: #f2f2f2;
             color: #333;
         }
-        h1 {
-            margin-bottom: 10px;
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            border-bottom: 2px solid #007BFF;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
+        .sidebar {
+            width: 30%;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         }
-        p, ul {
-            line-height: 1.6;
+        .main {
+            width: 70%;
+            padding: 20px;
         }
-        ul {
-            list-style-type: none;
+        h1, h2, h3 {
+            margin: 0;
             padding: 0;
         }
-        .contact-info, .experience, .education {
+        h1 {
+            color: #007BFF;
+        }
+        .section {
             margin-bottom: 20px;
         }
-        .contact-info li, .experience li, .education li {
-            margin-bottom: 5px;
+        .section-title {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Brisa Ramírez Esquivel</h1>
-    <div class="contact-info">
-        <h2>Información de Contacto</h2>
-        <ul>
-            <li>Email: brisaesquivel35@gmail.com</li>
-            <li>Teléfono: +52 5522653576</li>
-            <li>Dirección: Jaltepec</li>
-        </ul>
+    <div class="sidebar">
+        <h1>Brisa Ramírez Esquivel</h1>
+        <img src="/static/img/isaramirez.jpeg" alt="">
+        <p><strong>Correo:</strong> brisaesquivel35@gmail.com</p>
+        <p><strong>Teléfono:</strong> +52 55 2265 3476</p>
+        <p><strong>Dirección:</strong> Jaltepec el Llano.</p>
     </div>
+    <div class="main">
+        <div class="section">
+            <div class="section-title">Perfil Profesional</div>
+            <p>Estudiante apasionado por la tecnología y el desarrollo de software, con un fuerte deseo de aprender y crecer profesionalmente.</p>
+        </div>
+        <div class="section">
+            <div class="section-title">Educación</div>
+            <p><strong>Universidad Mexiquense del Bicentenario</strong>, Unidad de Estudios Superiores San José del Rincón.</p>
+            <p>Ingeniería en Sistemas Computacionales.</p>
+            <p>Séptimo Semestre.</p>
+        </div>
+        <div class="section">
+            <div class="section-title">Experiencia</div>
+            <p>Pasante en Ingeniería en Sistemas Computacionales.</p>
+            <ul>
+                <li>Desarrollo de aplicaciones web utilizando HTML5.</li>
+                <li>Colaboración en proyectos en equipo.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Habilidades</div>
+            <ul>
 
-    <div class="experience">
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li><strong>Nombre de la Empresa</strong> - Título del Puesto (Mes/Año - Mes/Año)</li>
-            <li>Descripción de responsabilidades y logros.</li>
-            <li><strong>Nombre de la Empresa</strong> - Título del Puesto (Mes/Año - Mes/Año)</li>
-            <li>Descripción de responsabilidades y logros.</li>
-        </ul>
-    </div>
-
-    <div class="education">
-        <h2>Educación</h2>
-        <ul>
-            <li><strong>Nombre de la Institución</strong> - Título (Mes/Año - Mes/Año)</li>
-            <li><strong>Nombre de la Institución</strong> - Título (Mes/Año - Mes/Año)</li>
-        </ul>
-    </div>
-
-    <div class="skills">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Habilidad 1</li>
-            <li>Habilidad 2</li>
-            <li>Habilidad 3</li>
-            <li>Habilidad 4</li>
-        </ul>
-    </div>
-    
-    <div class="languages">
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Español: Nativo</li>
-            <li>Inglés: Intermedio</li>
-        </ul>
+                <li>Trabajo en equipo.</li>
+                <li>Comunicación efectiva.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Contacto</div>
+            <p><strong>Teléfono personal:</strong> +52 55 2265 3476</p>
+            <p><strong>Email:</strong> brisaesquivel35@gmail.com</p>
+            <p><strong>Facebook:</strong> Esquivel Zaori </p>
+        </div>
     </div>
 </div>
 
